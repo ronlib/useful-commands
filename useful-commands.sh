@@ -45,3 +45,4 @@ sudo dmidecode -t 2 | less
 iw dev wlan0 interface add wlan0_ap type managed addr 12:34:56:78:ab:ce
 sudo ip link add name wifi_bridge type bridge
 sudo ip link set enp1s0f1 master wifi_bridge
+sudo ip address flush dev enp1s0f1 scope global
