@@ -48,4 +48,4 @@ sudo ip link set enp1s0f1 master wifi_bridge
 sudo ip address flush dev enp1s0f1 scope global
 
 # Scanner
-sudo brsaneconfig4 -a name=MFC-J480DW model=MFC-J480DW ip=192.168.1.106
+sudo brsaneconfig4 -a name=MFC-J480DW model=MFC-J480DW ip=192.168.1.105
