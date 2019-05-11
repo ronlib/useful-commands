@@ -49,3 +49,6 @@ sudo ip address flush dev enp1s0f1 scope global
 
 # Scanner
 sudo brsaneconfig4 -a name=MFC-J480DW model=MFC-J480DW ip=192.168.1.105
+
+# Printer
+sudo lpadmin -E -p Brother3 -v "ipp://192.168.1.105:631/ipp/print" -m brother_mfcj480dw_printer_en.ppd
