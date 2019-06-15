@@ -4,6 +4,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 alias ll="ls -lh"
 alias screenshot="xfce4-screenshooter"
+alias xclip="xclip -sel clip"
 
 call_scanner() {
     basefilepath="$(python /home/ron/git/useful-commands/filebasepath.py $1)"
