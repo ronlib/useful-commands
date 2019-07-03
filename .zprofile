@@ -1,5 +1,6 @@
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export GOPATH=$HOME/dev/go
 . /usr/share/LS_COLORS/dircolors.sh
 
 alias ll="ls -lh"
